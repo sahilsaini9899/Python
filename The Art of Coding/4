@@ -1,0 +1,11 @@
+print("Welcome to the right triangle solver app")
+import math
+name=input("Enter your name")
+print("Hello"+name.title())
+leg1=float(input("what is the first leg of the triangle"))
+leg2=float(input("what is the second leg of the triangle"))
+leg3=math.sqrt((leg1**2)+(leg2**2))
+leg3=round(leg3,3)
+area=leg1*leg2*0.5
+print("for the given sides" +str(leg1)+"and"+str(leg2)+"  the hypotinuse is "+str(leg3))
+print("for the given sides" +str(leg1)+"and"+str(leg2)+"  the area is "+str(area))
