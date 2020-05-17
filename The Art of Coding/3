@@ -1,0 +1,7 @@
+print("Welcome to the temprature conversion pogram")
+name=input("Enter your name")
+print("Hello"+name.title())
+temp=float(input("ENter the temprature in Fahrenheit"))
+temp_c=(5/9)*(temp-32)
+temp_k=temp_c+273.15
+print("Temrature in Fahrenheit="+str(temp)+"\nTemrature in celsius="+str(temp_c)+"\nTemrature in Kelvin="+str(temp_k))
