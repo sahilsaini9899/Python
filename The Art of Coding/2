@@ -1,0 +1,8 @@
+print("Mile per hour to meter per second convertor")
+name=input("Enter your name").title()
+print("hello "+name.title())
+mph=float(input("Enter your speed in mph"))
+mps=mph*0.4474
+mps=round(mps)
+print("The conversion of "+str(mph)+"into mps is:"+ str(mps))
+
