@@ -1,0 +1,10 @@
+print("Welcome to the letter counter app!")
+name=input("Whats your name?\n")
+print("hello "+name+"\n")
+message=input("write any message on the screen\n")
+letter=input("Enter the letter whose occurence you want to count\n")
+message=message.lower()
+letter=letter.lower()
+letter_count=message.count(letter)
+print("There are "+str(letter_count)+ letter+ "'s in your message")
+ 
